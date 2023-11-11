@@ -1,0 +1,178 @@
+/* 
+    // import font from Google-font
+    // font-family: 'Inter', sans-serif; 
+*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
+img {
+  max-width: 100%;
+}
+/* Common CSS Classes  */
+
+.app-btn {
+  border-radius: 10px;
+  background: #54bd95;
+  color: #f8f8fa;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 10px 10px;
+  text-decoration: none;
+  transition: 0.2s ease;
+  border: 1px solid transparent;
+}
+.app-btn:hover {
+  background: #f8f8fa;
+  color: #54bd95;
+  border: 1px solid #54bd95;
+}
+/*  Navbar CSS  */
+.nav-section .container {
+  padding: 50px 0px;
+}
+.logo a {
+  color: #54bd95;
+  font-family: Inter;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 60% */
+}
+.logo a:visited {
+  color: #54bd95;
+}
+.nav-section button {
+  border: 2px solid #54bd95;
+  transition: 0.2s ease;
+  outline: none;
+}
+
+.nav-section button:hover {
+  background-color: #54bd95;
+  border: 2px solid transparent;
+}
+.nav-section button:hover i {
+  color: white;
+}
+.nav-section button i {
+  color: #54bd95;
+  font-size: 31px;
+}
+.nav-section button:focus {
+  box-shadow: 0 0 0;
+  outline: none;
+}
+.nav-section ul li a {
+  color: #a6a6a6;
+  font-family: Inter;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 25px 20px;
+  text-align: center;
+}
+
+.nav-section .button a:nth-child(1) {
+  color: #a6a6a6;
+  background-color: #fff;
+}
+.nav-section .button a:nth-child(1):hover {
+  background: #54bd95;
+  color: #f8f8fa;
+  font-family: Inter;
+  border: 1px solid transparent;
+}
+/*  Hero CSS  */
+.hero-section {
+  padding: 100px 0 0 0;
+}
+.hero-section h1 {
+  color: #191a15;
+  font-family: Inter;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+.hero-section p {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+  padding: 50px 0;
+}
+.hero-section .button {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.hero-section .button button {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 40px;
+  background: #54bd95;
+  padding: 20px 30px;
+  border: 1px solid transparent;
+  outline: none;
+  transition: 0.2s ease;
+}
+.hero-section .button button:nth-child(1):hover {
+  border: 1px solid #54bd95;
+  color: #54bd95;
+  background-color: #fff;
+}
+.hero-section .button button:nth-child(2) {
+  border: 1px solid transparent;
+  color: #191a15;
+  padding: 12px 30px;
+  background-color: transparent;
+}
+.hero-section .button i {
+  font-size: 31.6px;
+  margin-right: 14px;
+}
+.hero-section .button button:nth-child(2):hover {
+  border: 1px solid transparent;
+  color: #fff;
+  background-color: #54bd95;
+}
+.hero-bottom {
+  padding: 140px 0 130px 0;
+}
+.hero-bottom h2 {
+  color: #191a15;
+  text-align: center;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+.hero-bottom .item {
+  color: #a6a6a6;
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px !important ;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 20px;
+}
+.hero-bottom .item img {
+  width: 34px;
+  height: 32px;
+}
