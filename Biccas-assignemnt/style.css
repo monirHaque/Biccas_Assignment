@@ -38,7 +38,7 @@ img {
   font-size: 50px;
   font-style: normal;
   font-weight: 600;
-  line-height: 30px; /* 60% */
+  line-height: 30px; 
 }
 .logo a:visited {
   color: #54bd95;
@@ -175,4 +175,85 @@ img {
 .hero-bottom .item img {
   width: 34px;
   height: 32px;
+}
+
+/*  Support CSS   */
+.support-section {
+  background: #f9f8fe;
+  padding: 60px 0;
+}
+.support-section h1 {
+  color: #191a15;
+  font-family: Inter;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.support-section p {
+  color: #a6a6a6;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  padding: 30px 0 50px 0;
+}
+.support-section .reviews {
+  display: flex;
+  gap: 80px;
+}
+.support-section i {
+  color: #ffc728;
+  padding: 4px 4px;
+  width: 10px;
+}
+.support-section .reviews p {
+  color: #191a15;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 18px 0;
+  margin: 0;
+}
+.support-section .reviews span {
+  color: #191a15;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.support-section .reviews strong {
+  color: #a6a6a6;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+/* support-second */
+.support-second img {
+  height: 60px;
+  padding: 10px;
+  background: #fff;
+  box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.05);
+}
+.support-second h3 {
+  color: #191a15;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.support-second p {
+  color: #a6a6a6;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; 
+  padding: 10px 0 30px 0;
 }
